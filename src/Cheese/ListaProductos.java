@@ -49,7 +49,10 @@ public class ListaProductos {
     
         if ((campo.replace(" ","").isEmpty()) || (campo == null))  return true; else return false;
     }
-
+    /**
+     * 
+     * @param nombre recibe el nombre como parámetro
+     */
     public ListaProductos(String nombre) {
     	if (parametro_vacio(nombre)) {
     		this.nombreLista = "noNamed";
@@ -58,10 +61,18 @@ public class ListaProductos {
     	this.nombreLista = nombre;
     	}
     }
+    /**
+     * 
+     * @return devolvemos this.getNumProductos()
+     */
     public int totalProductos(){
             return this.getNumProductos();
     }
-        
+    /**
+     * 
+     * @param prod recibe el objeto producto
+     * @return devuelve el objeto producto
+     */
     public Producto registraProducto(Producto prod) {
         
         if (listaP.containsKey(prod.getcode())) {
@@ -72,7 +83,11 @@ public class ListaProductos {
         this.setNumProductos(n);
         return prod;
     }
-
+    /**
+     * 
+     * @param codigo recibimos como parámetro un String que se llama código
+     * @return devolvemos prod
+     */
     public Producto descartaProducto(String codigo) { 
         
         Producto prod = encuentraProducto(codigo);
@@ -83,7 +98,11 @@ public class ListaProductos {
         }
         return prod;
     }
-
+    /**
+     * 
+     * @param codigo recibimos como parámetro un String llamado código
+     * @return devolvemos dependiendo del bucle o prod o listaP.get(código)
+     */
     public Producto encuentraProducto(String codigo) { 
         Producto prod = null;
         
