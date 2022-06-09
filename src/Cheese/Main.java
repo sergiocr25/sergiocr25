@@ -1,8 +1,8 @@
 /*
-*	grupo  :
-*	alumno :
-*	n.exp. :
-*	fecha  :
+*	grupo  : GDAM
+*	alumno : Sergio Valverde Ruiz-Olivares
+*	n.exp. : 7754
+*	fecha  : 09/06/2000
  */
 package Cheese;
 
