@@ -47,7 +47,7 @@ public class ListaProductos {
      */
     private boolean parametro_vacio(String campo){
     
-        if ((campo.replace(" ","").isEmpty()) || (campo == null))  return true; else return false;
+        if ((campo.replace(" ","").isEmpty()) || (campo == null))  return (Boolean) null; else return false;
     }
     /**
      * 
@@ -74,7 +74,11 @@ public class ListaProductos {
      * @return devuelve el objeto producto
      */
     public Producto registraProducto(Producto prod) {
-        
+        if(prod == null)
+        {
+        	return null;
+        }
+        else
         if (listaP.containsKey(prod.getcode())) {
            return null;
         }
@@ -89,7 +93,7 @@ public class ListaProductos {
      * @return devolvemos prod
      */
     public Producto descartaProducto(String codigo) { 
-        
+
         Producto prod = encuentraProducto(codigo);
         if (prod != null) {
 	        listaP.remove(codigo);
