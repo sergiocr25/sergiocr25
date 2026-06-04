@@ -52,6 +52,12 @@ Data cleaning project where the same dataset was cleaned using both Excel and My
 
 ---
 
+### 🌐 Largest US Companies Web Scraping
+
+Python web scraping project using Requests, BeautifulSoup and pandas to extract the largest US companies by revenue from Wikipedia and export a structured CSV dataset.
+
+**Tools:** Python, Requests, BeautifulSoup, pandas, Jupyter Notebook, CSV
+
 ## 🚧 Current Roadmap
 
 - Web scraping data pipeline
