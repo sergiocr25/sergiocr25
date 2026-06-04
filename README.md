@@ -60,7 +60,6 @@ Python web scraping project using Requests, BeautifulSoup and pandas to extract 
 
 ## 🚧 Current Roadmap
 
-- Web scraping data pipeline
 - Python exploratory data analysis project
 - Improve GitHub profile and project documentation
 - Add selected projects to my personal website
