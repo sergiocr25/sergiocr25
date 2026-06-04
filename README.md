@@ -54,9 +54,10 @@ Data cleaning project where the same dataset was cleaned using both Excel and My
 
 ## 🚧 Current Roadmap
 
-- Python exploratory data analysis project
 - Web scraping data pipeline
-- Portfolio website with project case studies
+- Python exploratory data analysis project
+- Improve GitHub profile and project documentation
+- Add selected projects to my personal website
 - Future tools: BigQuery, Databricks, Spark and R
 
 ## 🎯 Goal
